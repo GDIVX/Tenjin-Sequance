@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969d8c268b2a46859a29e5f06fc785b3, type: 3}
+  m_Name: MorbelBlockConfig
+  m_EditorClassIdentifier: 
+  MorbleDisntConfig:
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: c2eb14ef0cd2541fe8af9293a15373a1, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 3
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 2
+  - morbaleConfig: {fileID: 11400000, guid: c2eb14ef0cd2541fe8af9293a15373a1, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: c2eb14ef0cd2541fe8af9293a15373a1, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: c2eb14ef0cd2541fe8af9293a15373a1, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 2
+  - morbaleConfig: {fileID: 11400000, guid: c2eb14ef0cd2541fe8af9293a15373a1, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 3
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 3
+  - morbaleConfig: {fileID: 11400000, guid: c2eb14ef0cd2541fe8af9293a15373a1, type: 2}
+    Delay: 2
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: c2eb14ef0cd2541fe8af9293a15373a1, type: 2}
+    Delay: 1
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 3
+  - morbaleConfig: {fileID: 11400000, guid: 11e7e99668f4b40be9681cc5e9c45b04, type: 2}
+    Delay: 2

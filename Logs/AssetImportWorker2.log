@@ -1,0 +1,763 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 15775 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Unity Projects/Tenjin Sequance/Tenjin Sequance
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53127
+Successfully changed project path to: C:/Unity Projects/Tenjin Sequance/Tenjin Sequance
+C:/Unity Projects/Tenjin Sequance/Tenjin Sequance
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20168] Host "[IP] 192.168.1.199 [Port] 0 [Flags] 2 [Guid] 2231200476 [EditorId] 2231200476 [Version] 1048832 [Id] WindowsEditor(7,Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20168] Host "[IP] 192.168.1.199 [Port] 0 [Flags] 2 [Guid] 2231200476 [EditorId] 2231200476 [Version] 1048832 [Id] WindowsEditor(7,Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 4017.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/Tenjin Sequance/Tenjin Sequance/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019931 seconds.
+- Loaded All Assemblies, in 10.214 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 890 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.327 seconds
+Domain Reload Profiling: 12539ms
+	BeginReloadAssembly (8489ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (1514ms)
+		LoadAssemblies (8487ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1509ms)
+			TypeCache.Refresh (1505ms)
+				TypeCache.ScanAssembly (1474ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2328ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1782ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.746 seconds
+Refreshing native plugins compatible for Editor in 12.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.825 seconds
+Domain Reload Profiling: 20563ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (17261ms)
+		LoadAssemblies (16841ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (588ms)
+			TypeCache.Refresh (502ms)
+				TypeCache.ScanAssembly (454ms)
+			ScanForSourceGeneratedMonoScriptInfo (57ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (1242ms)
+			ProcessInitializeOnLoadMethodAttributes (800ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 12.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5666 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (361.2 KB). Loaded Objects now: 6112.
+Memory consumption went from 239.5 MB to 239.1 MB.
+Total: 44.615700 ms (FindLiveObjects: 1.430200 ms CreateObjectMapping: 1.037300 ms MarkObjects: 41.393000 ms  DeleteObjects: 0.751800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/ArrayPool.cs: b62e0c23bd2ab197e5146f9826836769 -> 845536f7047de828bbec8d41393a75eb
+  custom:scripting/monoscript/fileName/HashSetPool.cs: 567c0818ef4b448d4f9f05ec62589ffd -> 5a8e654da36fed6f4e04d9317b4310f3
+  custom:scripting/monoscript/fileName/DictionaryPool.cs: 90647cc400823b41df847a6cbfc29026 -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/CecilExtensions.cs: 300205ae85edbb88d6c0c35c47681451 -> 4c75dfff09a688691c5d280088b4dd93
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TypeExtensions.cs: dcfbda865fe8349225c494951670deb0 -> 4722cb449dee448ca56dc737815b1ecc
+  custom:scripting/monoscript/fileName/Context.cs: 9f2868ee92231bc7f785cc05a1299416 -> 3b1a231737a0299739a54f0b397a39cb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ListPool.cs: 83eb6d84b88e8ca72e9441e5be527923 -> c900152183a6315a4d8a1e96ee0dae67
+  custom:scripting/monoscript/fileName/ShaderConfigurator.cs:  -> 9866b56f31a992547df4914a444c89d8
+  custom:scripting/monoscript/fileName/EnemyTunables.cs:  -> 8f6a570ada51201861d0cae298e382fe
+  custom:scripting/monoscript/fileName/FactorySubContainerBinderWithParams.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestSignalRuntimeDeclaration.cs:  -> 85750227cb1dbf50ba94642b630dbd88
+  custom:scripting/monoscript/fileName/UnityExtensionMethods.cs:  -> a2b8fcdd33009b06db9bfd27c158df21
+  custom:scripting/monoscript/fileName/TestFactoryFromFactory1.cs:  -> f8c91ca18a858d82eafde7c9367ecab3
+  custom:scripting/monoscript/fileName/ShipStateWaitingToStart.cs:  -> 7a2e5a7c3b8312533ec8cd4f286ec6c6
+  custom:scripting/monoscript/fileName/TestPoolableStaticMemoryPool.cs:  -> 6284ac2243fd5c1c18c960b22bb7c645
+  custom:scripting/monoscript/fileName/ConventionAssemblySelectionBinder.cs:  -> 475d74457e37dd6c850c40e768248d73
+  custom:scripting/monoscript/fileName/LazyInstanceInjector.cs:  -> 37ead702ff807cb5496ac9628f131d9b
+  custom:scripting/monoscript/fileName/TestFromResource.cs:  -> ff446021c29144751108eb10baf22e4c
+  custom:scripting/monoscript/fileName/StaticMemoryPoolRegistry.cs:  -> 2bcd06bf76c69266e4b0eea199767096
+  custom:scripting/monoscript/fileName/SignalDeclarationAsyncInitializer.cs:  -> 3cf3d09f06fbc440dc6f806a7174f0a9
+  custom:scripting/monoscript/fileName/TestMultipleContractTypes.cs:  -> 7334f4e2e9b94f189d4282f9152ff01a
+  custom:scripting/monoscript/fileName/WaveParameters.cs:  -> cc0e3b109a105e2e3baa71a117d50f42
+  custom:scripting/monoscript/fileName/TestMemoryPool1.cs:  -> 65ba80d614e2285d85ee391af120638a
+  custom:scripting/monoscript/fileName/ShipStateMoving.cs:  -> 6bb495d7883028d153a66e7eb00ac42e
+  custom:scripting/monoscript/fileName/QuxInstaller.cs:  -> c1cef1344a002b43f3e95aebbe00cf98
+  custom:scripting/monoscript/fileName/SubContainerBindingFinalizer.cs:  -> cef60c9e99edd5e1da43a4979c43f7a1
+  custom:scripting/monoscript/fileName/SignalSubscriptionId.cs:  -> 4b2c24206b9814fb797ac66d95873a8c
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder1.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ValuePair.cs:  -> aa5e37cf77c773c3643ff0704491e12e
+  custom:scripting/monoscript/fileName/PlayerInputState.cs:  -> 4f4b70decdb8eec13f8338ce10c2fc1f
+  custom:scripting/monoscript/fileName/TestPoolableManager.cs:  -> 5bebf2d6720f509a408d73f442e6cd18
+  custom:scripting/monoscript/fileName/FactoryBindInfo.cs:  -> b240a7d364e7bf93376359f14205852a
+  custom:scripting/monoscript/fileName/TestListComparer.cs:  -> fa417acb695e7db85524d41d6a0af15e
+  custom:scripting/monoscript/fileName/TestZenAutoInjecter.cs:  -> d8a1130125c8bf5cec37a7078d23e0b4
+  custom:scripting/monoscript/fileName/MpmView.cs:  -> f550d40d5a3ade8acbeb8a97e84bbc72
+  custom:scripting/monoscript/fileName/RunnableContextEditor.cs:  -> f6b9343b3c73e6a6ce6c2d1ba2b666fd
+  custom:scripting/monoscript/fileName/TestFromSubContainerInstanceGetter.cs:  -> 540894a4cd939bcc5c4bac343b05a748
+  custom:scripting/monoscript/fileName/AlignToWavesInspector.cs:  -> fb7f5258ac5e4d997e67588eae431c7f
+  custom:scripting/monoscript/fileName/TestTaskUpdater.cs:  -> 7dad8b6262504b38a685b43298a4774b
+  custom:scripting/monoscript/fileName/InstanceProvider.cs:  -> dd07fbbab7d2c4d58e124b35c363f2a1
+  custom:scripting/monoscript/fileName/TestNullableValues.cs:  -> 3de6f0ce6dd46c527e54896bd45d6369
+  custom:scripting/monoscript/fileName/TestFromPoolableMemoryPoolOne.cs:  -> 3276f73941af466e553801da58d3be07
+  custom:scripting/monoscript/fileName/SetupConstants.cs:  -> 618e8d53dfc0fa092cb41ee883954782
+  custom:scripting/monoscript/fileName/TestConditionsBasic.cs:  -> 4cbbb3b5a700dcac045ed05903e7540b
+  custom:scripting/monoscript/fileName/FactorySubContainerBinderBase.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/StaticMemoryPool.cs:  -> 01848ef993e601764a7e2ffd5955c888
+  custom:scripting/monoscript/fileName/TestStaticMemoryPool.cs:  -> 97fb73dc23f8cbe5fd53da0f39333c9e
+  custom:scripting/monoscript/fileName/InstantiateCallbackConditionCopyNonLazyBinder.cs:  -> 4ba2802b651c54be11222485a1bdb3c8
+  custom:scripting/monoscript/fileName/ScriptableObjectInstallerBase.cs:  -> 8a9547a98984bdf9dd3b962012560573
+  custom:scripting/monoscript/fileName/IAnimatorIkHandler.cs:  -> 8f1ebc6a0a239c1b8f40613431a69d98
+  custom:scripting/monoscript/fileName/LevelHelper.cs:  -> 8857cb89613eb468b1373f7cd756838b
+  custom:scripting/monoscript/fileName/BindSignalToBinder.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/DiContainer.cs:  -> 11b14516ca9a4302c2d7190083a1cdc7
+  custom:scripting/monoscript/fileName/Gorp.cs:  -> b288bdb0f2c1bb434c6536fc5b9562df
+  custom:scripting/monoscript/fileName/GameObjectContextEditor.cs:  -> 36c487f9c466408aa37ecb48d6b0df19
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder6.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AnimatorMoveHandlerManager.cs:  -> aa642dd5cda07b1f06d5244750a0d61d
+  custom:scripting/monoscript/fileName/ZenUtilInternal.cs:  -> 7a283f832d8d0ec44af53114a140b7a8
+  custom:scripting/monoscript/fileName/FactoryProviderWrapper.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioHandler.cs:  -> 4cc223ac906d9c82b495080c0ebb8230
+  custom:scripting/monoscript/fileName/TestFromResolve.cs:  -> 2849d05dda3ab4f193588deb5c2687be
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder10.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ZenjectStateMachineBehaviourAutoInjecter.cs:  -> b2ad5b3852f1379924bd34fabae04d70
+  custom:scripting/monoscript/fileName/TestIdentifiers.cs:  -> b8c3fdc49ac57ce8753f04054743825f
+  custom:scripting/monoscript/fileName/Ship.cs:  -> dbd4e89d9e993dc12374230d81f0fcac
+  custom:scripting/monoscript/fileName/StylizedWaterRenderFeature.cs:  -> 9a412f7ecb6107d092ece66556de148b
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder3.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestMonoInstallers.cs:  -> 8eb7064431706a3886d1f9ca4c8c4e3a
+  custom:scripting/monoscript/fileName/ControlsDisplay.cs:  -> 570498fc59bfdd3777bb0bff96fcbbe7
+  custom:scripting/monoscript/fileName/ScriptableObjectInstanceProvider.cs:  -> 51179b54b633aa1529d0d3b64f11efcb
+  custom:scripting/monoscript/fileName/TestConvention.cs:  -> 05ae7bcf1111a44390731d6968a9d578
+  custom:scripting/monoscript/fileName/PlayerInputHandler.cs:  -> c497c4f54432f0c5b828bd89cd09c7e2
+  custom:scripting/monoscript/fileName/PlayerShootHandler.cs:  -> c5cc562c82fe8d125edd46d1132c6325
+  custom:scripting/precompiled-assembly-types:Zenject.ReflectionBaking.Mono.Cecil:  -> f306196632acd450e2c8390187abf754
+  custom:scripting/monoscript/fileName/ConventionBindInfo.cs:  -> e2935598d5f8c39c78ba41815f21cb77
+  custom:scripting/monoscript/fileName/UnityUtil.cs:  -> 0c8fbee5b187335757b4b942cbfd2f6a
+  custom:scripting/monoscript/fileName/Installer.cs:  -> 64c5a2fba4dfe416c97074e1794058cf
+  custom:scripting/monoscript/fileName/TestInjectSources.cs:  -> 60ed8a13c14dccb036c54583ee65f45a
+  custom:scripting/monoscript/fileName/TestBindFactoryFive.cs:  -> 52fe08c0ab1ea8eff07f88b7cd2ca7d6
+  custom:scripting/monoscript/fileName/MonoInstallerBase.cs:  -> 23d17eaaff78ab5aeed1d3e511cad909
+  custom:scripting/monoscript/fileName/ReflectionBakingModuleEditor.cs:  -> 46f00d962d888bbdbef03cdb2d29311a
+  custom:scripting/monoscript/fileName/SubContainerCreatorByNewGameObjectDynamicContext.cs:  -> 6ab3fe4207f54ddd8e1368be045521ae
+  custom:scripting/monoscript/fileName/PlayerInstaller.cs:  -> d5c4a2afa917687ebcdbc9ad14459a3b
+  custom:scripting/monoscript/fileName/MemoryPoolInitialSizeBinder.cs:  -> 849ed7f5b11c9db237ef61b01c5a5104
+  custom:scripting/precompiled-assembly-types:Zenject-PoolMonitor-Editor:  -> 156e0b18202068db51e575cf57f0bc20
+  custom:scripting/monoscript/fileName/BindingId.cs:  -> cece4d98bc75da74cf363579bc0a735c
+  custom:scripting/monoscript/fileName/PlayerGui.cs:  -> b8ad15e0a06d5bfc393ea0f1fc753411
+  custom:scripting/monoscript/fileName/MathematicsDrawers.cs:  -> f55ff2195245c57ad8dd4ae275cfa5b5
+  custom:scripting/monoscript/fileName/CheatSheet.cs:  -> 0b2b3414c5e5958f8325eacdda120b46
+  custom:scripting/monoscript/fileName/PrefabProviderResource.cs:  -> c02c9c7cba5765f5da014fc5cf3fe9c6
+  custom:scripting/monoscript/fileName/SignalCallbackWithLookupWrapper.cs:  -> 9aa9cc34257012bbce53913382197bc7
+  custom:scripting/monoscript/fileName/EnemyStateManager.cs:  -> d473f1b7775ee344a4877e9141d2b3f4
+  custom:scripting/monoscript/fileName/TestConvention2.cs:  -> 53cd98e7b8a7c8746f4babc9bc8692c1
+  custom:scripting/monoscript/fileName/FixtureUtil.cs:  -> ad77530e0295ff7d5acd2fc348d5df8a
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder3.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/precompiled-assembly-types:Sirenix.OdinInspector.Attributes:  -> a7a52d4f0c73a229b317f0c13e67e14a
+  custom:scripting/monoscript/fileName/DefaultSceneContractConfig.cs:  -> c79654cfe265f5f67267b33cede92e8b
+  custom:scripting/monoscript/fileName/TaskUpdater.cs:  -> 6aadc1c251d913a31d42e93f9bd908e6
+  custom:scripting/monoscript/fileName/PoolableMemoryPool.cs:  -> 4a32470493a767702519176ca1433fe7
+  custom:scripting/monoscript/fileName/TransientProvider.cs:  -> 18fc6ff1a74473b3d2f4a399770c454e
+  custom:scripting/monoscript/fileName/Assert.cs:  -> 76b51526eb8a0ae190db0904654021ae
+  custom:scripting/monoscript/fileName/ZenjectProfileTest.cs:  -> ed935afdf96280def460bfd31278807d
+  custom:scripting/monoscript/fileName/TestFromComponentInParents.cs:  -> 7a34d30b8538e79559d339f5115026ee
+  custom:scripting/monoscript/fileName/ZenjectSceneLoader.cs:  -> 843423ff204493e5ea07f5fbcb41458f
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder1.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestFactoryFrom1.cs:  -> 1be553dedd9a7d2a760886693e899778
+  custom:scripting/monoscript/fileName/WaterGrid.cs:  -> 54ea84f5776d45e747d20a171676a5bf
+  custom:scripting/monoscript/fileName/PipelineUtilities.cs:  -> 30c7df8826ec54d75695e62efd13f586
+  custom:scripting/monoscript/fileName/ReflectionTypeInfo.cs:  -> f1258c2dc14dd23985d0847781f6d2a5
+  custom:scripting/monoscript/fileName/MaterialUI.cs:  -> 0c76af69f181a61fbc3ae68267e7f629
+  custom:scripting/monoscript/fileName/WaterObjectInspector.cs:  -> c7f22be9243ca2ff2048666f100c6632
+  custom:scripting/monoscript/fileName/TestBaseClassPropertyInjection.cs:  -> b4c868506d624751a83bbfba31c9e60f
+  custom:scripting/monoscript/fileName/ZenjectEditorWindow.cs:  -> 1e16f01a44dcfa1b9a7276e153a232a9
+  custom:scripting/monoscript/fileName/EnemyFacade.cs:  -> 10f2f90c71b98fe855ee20c5d230482d
+  custom:scripting/monoscript/fileName/TestParameters.cs:  -> 32220139320ead300fecff1eb1bdc709
+  custom:scripting/precompiled-assembly-types:Sirenix.Serialization.Config:  -> d73bda365eaf1e1c6acc941bd4635622
+  custom:scripting/monoscript/fileName/RunnableContext.cs:  -> 391ef133d76c72c935f6d871914ec485
+  custom:scripting/monoscript/fileName/PrefabProvider.cs:  -> 92320d5d1ac53e52afb661bf523cac5f
+  custom:scripting/monoscript/fileName/MethodMultipleProviderUntyped.cs:  -> 5c3664e2388a05d63ba95a7496b9fdc8
+  custom:scripting/monoscript/fileName/TestSignalsAdvanced.cs:  -> c45e0fc397f7d4a5f826a8f5982a5032
+  custom:scripting/monoscript/fileName/InjectContext.cs:  -> 567a20cf38adb944f34c0f28f9c3aca2
+  custom:scripting/monoscript/fileName/TestCircularDependencies.cs:  -> 972cb0a16971387e1e5b43c6d81ef8d8
+  custom:scripting/monoscript/fileName/TestFromIFactory.cs:  -> 5a54a710329943d780faa8f6ddb01625
+  custom:scripting/monoscript/fileName/ExecutionOrderInstaller.cs:  -> f817952b2d3fd43bb8eade9fe99090d2
+  custom:scripting/monoscript/fileName/TestFromPoolableMemoryPoolValidation.cs:  -> 235ebe1bcc564e4fd037fb0fba4f027f
+  custom:scripting/monoscript/fileName/SignalBindingBindInfo.cs:  -> bc9998fb3cb0b009b50f97a20b47c859
+  custom:scripting/monoscript/fileName/CircFoo.cs:  -> 99a545cf1ec13f1949e5d2b901d2743d
+  custom:scripting/monoscript/fileName/TickableManager.cs:  -> 0ee2d7bcabd66db8b28703237c6270b7
+  custom:scripting/monoscript/fileName/TestDuplicateInjection.cs:  -> 2b62989c2604661d76be8de67db2edc1
+  custom:scripting/monoscript/fileName/Jim.cs:  -> 5f8d00fe479bbbb438444b3cbd58046c
+  custom:scripting/monoscript/fileName/FooMonoBehaviourUnderSceneContext1.cs:  -> 4bab6fdf57afc6d23f4c38429bd9d640
+  custom:scripting/monoscript/fileName/TestFromMethodMultipleUntyped.cs:  -> f0e5c9645377fe9d2fb1765df2bd1a74
+  custom:scripting/monoscript/fileName/ProviderBindingFinalizer.cs:  -> c5c40e3a9fc2ed83a037ffc8c4378c24
+  custom:scripting/monoscript/fileName/SceneKernel.cs:  -> 37e63911256457e22410538325253951
+  custom:scripting/monoscript/fileName/ValidationUtil.cs:  -> b9b051e51bf2ea6a7e7c9cf059c6d365
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder2.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ISubContainerCreator.cs:  -> 71ab2649acd3c0bd919b468620d49c93
+  custom:scripting/monoscript/fileName/Scene1Installer.cs:  -> d338d38ca67c2956327515ace284256d
+  custom:scripting/monoscript/fileName/TestFactoryFromMethod1.cs:  -> 967a945471f51bd8a87d9bb4fde2bb09
+  custom:scripting/monoscript/fileName/DisplacementPrePass.cs:  -> 937403c24d16ef3fb2e42a4e46fdf4a5
+  custom:scripting/monoscript/fileName/TestFromComponentInHierarchyGameObjectContext.cs:  -> 92a3008b6da28fe2567843b1c7959a64
+  custom:scripting/monoscript/fileName/FactoryFromBinder10.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/DecoratorToChoiceFromBinder.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/precompiled-assembly-types:Zenject:  -> 96c3a49755a811712c96ba5980f3b802
+  custom:scripting/monoscript/fileName/WaterShaderImporter.cs:  -> 995eb2bbde9a23d613734488290ace2c
+  custom:scripting/monoscript/fileName/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs:  -> 5cdad611ad0246064abd825ad9893973
+  custom:scripting/monoscript/fileName/TestFromComponentInHierarchy.cs:  -> 8bebfaa0aaf9ad81a3d0f71af8c5cd4d
+  custom:scripting/monoscript/fileName/GameSignalsInstaller.cs:  -> 10a29d598d17f64de14c73cdb6d6c56d
+  custom:scripting/monoscript/fileName/TestConditionsIdentifier.cs:  -> 5ee16a3824be2c1fbc6e49dbc8e46be5
+  custom:scripting/monoscript/fileName/TestFromComponentInChildren.cs:  -> 90d55dcec05b7f4fcdddc40f651bd0f0
+  custom:scripting/monoscript/fileName/ShipStateDead.cs:  -> dd53c4c4d9e04c7dbd9752eac894dac0
+  custom:scripting/monoscript/fileName/TestFactoryFrom0.cs:  -> abe2ae445880f16768e4611f25043f38
+  custom:scripting/monoscript/fileName/FactoryFromBinder2.cs:  -> 33992bed4edcf3a65372394072e35f72
+  custom:scripting/monoscript/fileName/PoolFactory.cs:  -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/StylizedWaterEditor.cs:  -> 71c88996744cc558352059306fe5b04e
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder5.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EnemyCommonSettings.cs:  -> c3db9c6ab0aaa9a00cc0a3452104ee77
+  custom:scripting/monoscript/fileName/InitializableManager.cs:  -> f63ae0ff569d29a270eeadfb89f2bf17
+  custom:scripting/monoscript/fileName/PlanarReflectionRenderer.cs:  -> b21e80b5017c669b3c3d6654d0db8fe3
+  custom:scripting/monoscript/fileName/TestArrayPool.cs:  -> e6024238f8b19936dd6adc09df82c8c3
+  custom:scripting/monoscript/fileName/AssemblyPathRegistry.cs:  -> 1366bcd17a63e980d868acd716fcdb8e
+  custom:scripting/monoscript/fileName/StaticContext.cs:  -> 29c1f04db28ac117a1e593220db32f66
+  custom:scripting/precompiled-assembly-types:DOTween:  -> 41770a3e10244ae0a34e714162bbdba6
+  custom:scripting/monoscript/fileName/TestFromComponentInSiblings.cs:  -> 48ef05fff11d3ebea73f764a597d3834
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder1.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ProjectInstaller.cs:  -> 5eead64f0cd30b15566fa11c67cd221a
+  custom:scripting/monoscript/fileName/TestMemoryPoolCustomFactory.cs:  -> 83fcd734da6d9826b8d6a072eb7572ee
+  custom:scripting/monoscript/fileName/BrokenShipFactory.cs:  -> d8f0e83ee268034980075c830ec462a5
+  custom:scripting/monoscript/fileName/LevelBoundary.cs:  -> c47356c512e08bb42bba13eefd7139a5
+  custom:scripting/monoscript/fileName/TestIfNotBound.cs:  -> c47cc812903a7b6fb37f3c59460d3f58
+  custom:scripting/monoscript/fileName/DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs:  -> 2fa024e41268f21869388e4f884909d9
+  custom:scripting/monoscript/fileName/FooDisposable1.cs:  -> 515055e0a4bd0d53fca82ef67b2c461e
+  custom:scripting/monoscript/fileName/TestDecoratorValidation.cs:  -> 2ea783142d5623ecb7b2d74df0f9bf98
+  custom:scripting/monoscript/fileName/BindSignalIdToBinder.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PrefabBindingFinalizer.cs:  -> 7c575f82ed2540dd0dd7ee894f3b1ca2
+  custom:scripting/monoscript/fileName/ReflectionBakingMenuItems.cs:  -> 40bfe26f3e66cf8192876346a128b117
+  custom:scripting/monoscript/fileName/TestFactoryFromFactory0.cs:  -> 21a4e80140c438d507187887df45546d
+  custom:scripting/monoscript/fileName/EnemyRegistry.cs:  -> 622c3d8d6269bb09681b54302474d800
+  custom:scripting/monoscript/fileName/TestBindFactory.cs:  -> ab266c5f7d3034b1789470ec1d814e58
+  custom:scripting/monoscript/fileName/PlayerFacade.cs:  -> b9dc23dd3fe7f46f9c31da4cf6c870d6
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder10.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PrefabInstantiator.cs:  -> edc8123940d6fb6698803d8e68abe6a7
+  custom:scripting/monoscript/fileName/TestSubContainers.cs:  -> 69fda21acf509906c08840aa7d1bf19a
+  custom:scripting/monoscript/fileName/TestPropertyInjection.cs:  -> 6cac8aa0eb64b438dd2b2edf59dd6494
+  custom:scripting/monoscript/fileName/TestFromSubContainerInstaller.cs:  -> 3b4f03ba52cd04ff87b573fdd74a761c
+  custom:scripting/monoscript/fileName/FooMore.cs:  -> 6c1a7dbb0fd74f240ca519a31544464e
+  custom:scripting/monoscript/fileName/EditorStaticInstaller.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/WaterObject.cs:  -> 404275b123bf5a010b4ce133e94f7c65
+  custom:scripting/precompiled-assembly-types:Sirenix.Utilities:  -> 3619aea7eabab7c28cc8a163d55f774d
+  custom:scripting/monoscript/fileName/DefaultGameObjectParentInstaller.cs:  -> fc84d68ccbd9182a16c7898a0451112a
+  custom:scripting/monoscript/fileName/NonLazyBinder.cs:  -> caeb2c153210944d9673ec747aa45d4d
+  custom:scripting/precompiled-assembly-types:Zenject-TestFramework:  -> 5f7fa8ee85710e060a2035196fe45e07
+  custom:scripting/monoscript/fileName/SceneParentAutomaticLoader.cs:  -> 83d38c7e9fc65315e4f5d422e684b108
+  custom:scripting/monoscript/fileName/TestAnimationStateBehaviourInject.cs:  -> 1157cb07fc38c4c3fcce5b938e44c7be
+  custom:scripting/monoscript/fileName/TestFacadeSubContainer.cs:  -> e9c7356deb24e5b8ecb3b4c3ff6f40c3
+  custom:scripting/monoscript/fileName/StateBehaviour1.cs:  -> b948b9e2f3b4f6aaa1ebfb0e2d915bb8
+  custom:scripting/precompiled-assembly-types:Zenject-IntegrationTests:  -> 972d4b3354595753a03ab1002a6f2842
+  custom:scripting/monoscript/fileName/TestConditionsTarget.cs:  -> a928a499c38646c7d3851e0d25aace8c
+  custom:scripting/monoscript/fileName/PoolCleanupChecker.cs:  -> a21c43bd44da357d949e8f32afd564ed
+  custom:scripting/monoscript/fileName/SubContainerCreatorDynamicContext.cs:  -> d5d627e3fdcde388f91cfb754d412eb7
+  custom:scripting/monoscript/fileName/MpmWindow.cs:  -> 4e437ec4b2e6912db17f1625e520d672
+  custom:scripting/monoscript/fileName/Explosion.cs:  -> f1fb067e80d57f0378e0f8f60dcfdfb1
+  custom:scripting/monoscript/fileName/PrefabInstantiatorCached.cs:  -> ca7b19fdcd74b107a0eb8e3554afca74
+  custom:scripting/monoscript/fileName/GetFromGameObjectGetterComponentProvider.cs:  -> 9129b0a36c8a466c3dc5ae9ac7e01719
+  custom:scripting/monoscript/fileName/TestDecorators.cs:  -> 5407b5ca240a56bdcf4a0184d835301a
+  custom:scripting/monoscript/fileName/GetFromGameObjectComponentProvider.cs:  -> ede4d36f91ad9eddf02e7950fe5751e7
+  custom:scripting/monoscript/fileName/ProjectContext.cs:  -> 340a8268386977100f63054eb191f2f1
+  custom:scripting/monoscript/fileName/Kernel.cs:  -> d48134456da85abcd7b6b60d02f0a4ac
+  custom:scripting/monoscript/fileName/ZenjectReflectionBakingSettings.cs:  -> 72e81be7f4c4ac02d1cb9619302eae12
+  custom:scripting/monoscript/fileName/TestSubContainers4.cs:  -> b2e73d93be6c71cf9f2782b735696e8b
+  custom:scripting/monoscript/fileName/FactoryFromBinder3.cs:  -> 28038bf48c9edb394ea4c5fce0e3b100
+  custom:scripting/monoscript/fileName/TestFromComponentOn.cs:  -> 2be4ffeaac581bb9db86edfdcb13f3c5
+  custom:scripting/monoscript/fileName/SubContainerPrefabBindingFinalizer.cs:  -> d6ef50a79a0e3ff0eb1aad790486b73c
+  custom:scripting/monoscript/fileName/MonoKernel.cs:  -> 2f7f5be1d7f8243cfd8013cd5b7812f8
+  custom:scripting/monoscript/fileName/PreserveAttribute.cs:  -> 81f258321cd723a6b4f36d74712308c2
+  custom:scripting/monoscript/fileName/PoolableManager.cs:  -> 6721a66d128f61cd405c30c34d05d014
+  custom:scripting/monoscript/fileName/TestConventionNames.cs:  -> c5f5af64ca654f366bad78c9c4f9a1cd
+  custom:scripting/monoscript/fileName/SceneContextEditor.cs:  -> b8f32204ccaae7896e4fb32e700084e2
+  custom:scripting/monoscript/fileName/TestFromPrefab.cs:  -> d6ed28fade98d3d7ca4f46d566281cd2
+  custom:scripting/monoscript/fileName/IProviderExtensions.cs:  -> 42c17c2db20fc95cdae5ec495acab2c3
+  custom:scripting/monoscript/fileName/FactoryFromBinderBase.cs:  -> 07a29d7d921560766d2a7fa1ca7fc302
+  custom:scripting/monoscript/fileName/PrefabProviderCustom.cs:  -> 54dac62f342d6bcc29b20d106d5c88d0
+  custom:scripting/monoscript/fileName/PrefabGameObjectProvider.cs:  -> 9bf77d5c8607706ed346ea1e9adbb75a
+  custom:scripting/monoscript/fileName/GameObjectContext.cs:  -> ffa8c2ed26f488ff4564e7cf74cb9ec9
+  custom:scripting/monoscript/fileName/TestInstantiateCallback.cs:  -> e3985c5b12068d3866a012291709ae97
+  custom:scripting/monoscript/fileName/SignalTickPriorityCopyBinder.cs:  -> 4db6467be34f1954afc9add5759bfb55
+  custom:scripting/monoscript/fileName/IInstaller.cs:  -> b5eaf7e92a7cef7a33e0489cbd46ad26
+  custom:scripting/monoscript/fileName/SubContainerCreatorByInstance.cs:  -> 4a538ab36a5fa29a8eacb335e275b36b
+  custom:scripting/monoscript/fileName/PlayerModel.cs:  -> 85a4b9864c5e9999a13797eb65b31d7e
+  custom:scripting/monoscript/fileName/ShipStateFactory.cs:  -> a198f0f07d643730913114c1684fac96
+  custom:scripting/monoscript/fileName/IProvider.cs:  -> 4c54c5f63654c2241589ed0bc3fd84d8
+  custom:scripting/monoscript/fileName/ReflectionUtil.cs:  -> c2973bf73efe4ed9059ff4d13d6005ef
+  custom:scripting/monoscript/fileName/FactoryFromBinder5.cs:  -> 31b30f5ccd643cea3a92dd459a64a176
+  custom:scripting/monoscript/fileName/PlayerDirectionHandler.cs:  -> 0a2dd1397523367e838639c5183675c8
+  custom:scripting/monoscript/fileName/InstantiateOnPrefabComponentProvider.cs:  -> 097a9971acca0fb88a09dfb2165ef8f8
+  custom:scripting/monoscript/fileName/TestResolve.cs:  -> 9a6381249001ce571d47b838204ab06f
+  custom:scripting/monoscript/fileName/ExplosionFactory.cs:  -> 7e91aa3501716ffc1e7a77ea9c6168f0
+  custom:scripting/monoscript/fileName/GetterProvider.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/MemoryPoolBindInfo.cs:  -> 4e781201c5c7df594c93ae56fcdc0e18
+  custom:scripting/monoscript/fileName/TestKeyedFactoryExample.cs:  -> 065e5781aae91819d04c2db6f78ce298
+  custom:scripting/monoscript/fileName/SingleProviderBindingFinalizer.cs:  -> 3ff26f38a2938410e6d3d85583fef7d2
+  custom:scripting/monoscript/fileName/ConditionCopyNonLazyBinder.cs:  -> b0182c12b6c9e5bbb9c60d4e26c83bba
+  custom:scripting/monoscript/fileName/ZenjectBinding.cs:  -> 5ce3b3b519745650d75c52dbbde17ad1
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder4.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestClearCacheProvider.cs:  -> 2780eb1a7682300eded1a4392f0f163b
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder2.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/DecoratableMonoKernel.cs:  -> edd07a11ea73d2b9c36506f1944fed7d
+  custom:scripting/monoscript/fileName/AsteroidManager.cs:  -> cfffa147141d2105e0c826661827fa35
+  custom:scripting/monoscript/fileName/TestFromSubContainerMethod.cs:  -> 0cc562846ede3fa2f6a488c274a9402a
+  custom:scripting/monoscript/fileName/GameEvents.cs:  -> 4372981f3af106a8c7d5a3e1f0d45689
+  custom:scripting/monoscript/fileName/TestFromInstance.cs:  -> ad7215cb013dd2311ec5bd46c349a6c5
+  custom:scripting/monoscript/fileName/TestPrefabFactory.cs:  -> 408550000114b1644e2a16510644ab48
+  custom:scripting/monoscript/fileName/FactoryFromBinder0.cs:  -> 7ff088e51662835354c55fb3089afb45
+  custom:scripting/monoscript/fileName/IdBinder.cs:  -> 055ec5befcdd7d22dddb4c323d7a0e02
+  custom:scripting/monoscript/fileName/SubContainerCreatorByNewPrefab.cs:  -> ba34c21f161e6664d76fd18d29f3444a
+  custom:scripting/monoscript/fileName/ScopableBindingFinalizer.cs:  -> a786c754d7a6ba272b05b6e8cd08dc47
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder5.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/CachedOpenTypeProvider.cs:  -> 140f64b26b4d3b6f17010b0cd64beb6e
+  custom:scripting/monoscript/fileName/RenderFeatureEditor.cs:  -> bca9d531328a5c2c6ece4fa53a7777c9
+  custom:scripting/monoscript/fileName/SubContainerBinder.cs:  -> eee5c461355248376c4e1bba54e927fb
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder3.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SceneContext.cs:  -> 79b32af909c2f2b0f1fc24c4dd1b82dd
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder0.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestFromSubContainerInstance.cs:  -> e0539d3f7243b02dc0ff1971c2f47304
+  custom:scripting/precompiled-assembly-types:Zenject-UnitTests-Editor:  -> 286d049cb912645f1cb8661bbc9cdf52
+  custom:scripting/monoscript/fileName/EnemyInstaller.cs:  -> 082515a8fb3cf5e9f5eb8688a7d10a2f
+  custom:scripting/monoscript/fileName/TestCustomInjectAttribute.cs:  -> aa86579f2138a1e99d23ffd752fa43ca
+  custom:scripting/monoscript/fileName/GameController.cs:  -> f4af79a2d24cefac342a55fe5d3e0819
+  custom:scripting/monoscript/fileName/FromBinder.cs:  -> b757a2977ad5f538e4c39805c24fee23
+  custom:scripting/monoscript/fileName/SubContainerCreatorByInstaller.cs:  -> 8c9dab165ac2b98fca9bc66c30285145
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder4.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestMemoryPool0.cs:  -> c24802a97d579ce8138da3dabda093af
+  custom:scripting/monoscript/fileName/TestPostInjectParameters.cs:  -> 4ab37f42ecd383444464e6981b27d184
+  custom:scripting/monoscript/fileName/KernelDecoratorInstaller.cs:  -> 66bb9c37e2e8c7d96ca43d353f344cab
+  custom:scripting/monoscript/fileName/TestFactoryFromGetter0.cs:  -> 1a7ec830462b226428f5b7ba587044b5
+  custom:scripting/monoscript/fileName/TestFrom.cs:  -> 1d73509ba8f481918eb85f5b5e6ee735
+  custom:scripting/monoscript/fileName/GetFromPrefabComponentProvider.cs:  -> c865e994258b6682b6c08d32d87d3c8c
+  custom:scripting/monoscript/fileName/ProjectKernel.cs:  -> e104504b5d0eb8f24ae7f0c5dc40973a
+  custom:scripting/monoscript/fileName/SceneContextRegistry.cs:  -> 06b336ebf3ad90aeb95a2fc2492cd516
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder6.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestUnbind.cs:  -> a190e11cd2a6353abf1d8597f44db6ce
+  custom:scripting/monoscript/fileName/SubContainerCreatorByMethod.cs:  -> bfc8f44cac311a272d11e5899f5b9580
+  custom:scripting/monoscript/fileName/FactoryFromBinder6.cs:  -> 94313644cba694f8ed705bb3342a7af0
+  custom:scripting/monoscript/fileName/ConcreteIdBinderNonGeneric.cs:  -> 08a721021c18345e931158e4f76fb4dd
+  custom:scripting/monoscript/fileName/AddToGameObjectComponentProviderBase.cs:  -> b90616375dc3f5ea48396822067b4e46
+  custom:scripting/monoscript/fileName/PrefabFactory.cs:  -> 0ecf0b5b4a9207402e80b603ad9a119c
+  custom:scripting/monoscript/fileName/TestFromPoolableMemoryPoolZero.cs:  -> 3b52b46aad9c72a8c2c5d450e0b1f7bc
+  custom:scripting/monoscript/fileName/IFactoryProvider.cs:  -> 4a32470493a767702519176ca1433fe7
+  custom:scripting/monoscript/fileName/ZenjectReflectionBakingSettingsEditor.cs:  -> 07a626db432383465461a56f7f6e32e8
+  custom:scripting/monoscript/fileName/AnimatorInstaller.cs:  -> 3ec589645db4575d85f1f46825d84c6a
+  custom:scripting/monoscript/fileName/MethodProviderMultiple.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EnemyView.cs:  -> 646f2159b3c563a27decd0fb3202ef2c
+  custom:scripting/monoscript/fileName/LinqExtensions.cs:  -> c9cbda436d83acdd75ccfb36177100f8
+  custom:scripting/monoscript/fileName/TestDisposeBlock.cs:  -> deb6b050f50134a6a8149b48d2c5ecff
+  custom:scripting/monoscript/fileName/TestDiContainerMethods.cs:  -> fcb8bbd3a916f48c833bc141341ccd75
+  custom:scripting/monoscript/fileName/FromBinderNonGeneric.cs:  -> b7abf60d5c15213aa1694975223ec36c
+  custom:scripting/monoscript/fileName/ObjectGraphVisualizer.cs:  -> b30e4b2db0308df69cbce160cf23cfb7
+  custom:scripting/monoscript/fileName/IPrefabInstantiator.cs:  -> 6868aa8754746595578222045263a0e5
+  custom:scripting/monoscript/fileName/MiscExtensions.cs:  -> ff81f5a5ff1f37160bafec03b9a51e19
+  custom:scripting/monoscript/fileName/TestFactoryFromResolve0.cs:  -> 1f68d2c85130e3a8811d996073d614e2
+  custom:scripting/monoscript/fileName/PrefabResourceBindingFinalizer.cs:  -> 1e026519f99973ac9fd04d0f25dc5c9d
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder5.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs:  -> 85778f51d0c93808c7a44b0d5381205c
+  custom:scripting/monoscript/fileName/EnemyStateFollow.cs:  -> 24922c42c9205e726e5a32a8063df89e
+  custom:scripting/monoscript/fileName/SubContainerCreatorByInstanceGetter.cs:  -> 70668d56a864b45a3d5c2771073aeb61
+  custom:scripting/precompiled-assembly-types:Sirenix.Serialization:  -> 000a011835296a41d8f928b8c8af0765
+  custom:scripting/monoscript/fileName/ConcreteBinderGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AddToCurrentGameObjectComponentProvider.cs:  -> df9da24e9a06fa6f058c202969c69b9e
+  custom:scripting/monoscript/fileName/DefaultGameObjectKernel.cs:  -> cabade3139850fa003454a5dcf1fee4f
+  custom:scripting/monoscript/fileName/TestBindSignal.cs:  -> 028c61992c23ee73c55029c6c3f26e55
+  custom:scripting/monoscript/fileName/PlaceholderFactory.cs:  -> 1d2933bc56d7311d0449931f9ae688f2
+  custom:scripting/monoscript/fileName/TestScriptableObjectInstallers.cs:  -> 5d0fe2c2a87dc9b6fc7fe72dc8062b9b
+  custom:scripting/monoscript/fileName/SubContainerCreatorByNewPrefabDynamicContext.cs:  -> c614df5079c90a1c0be88bc48b2ec928
+  custom:scripting/monoscript/fileName/TestRebind.cs:  -> c384cca2004e47b6ab6dded6c89c7b86
+  custom:scripting/monoscript/fileName/ProfileBlock.cs:  -> c6379b2ebd1234b93f4ddfb995e383d0
+  custom:scripting/monoscript/fileName/PlayerHealthWatcher.cs:  -> bd7f9c28c13a5eee1b019f590c628b2b
+  custom:scripting/monoscript/fileName/IdScopeConcreteIdArgConditionCopyNonLazyBinder.cs:  -> fe222f6ee7e48c1413053e503999459a
+  custom:scripting/monoscript/fileName/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs:  -> b105116920314aff242ba3681a84e996
+  custom:scripting/monoscript/fileName/TestFactoryMemoryPoolCustomInterface.cs:  -> ac06bc54a36fd1f0c09a54430f820de4
+  custom:scripting/monoscript/fileName/DisposeBlock.cs:  -> 284506b3a2ec042be096dc4750e1062d
+  custom:scripting/monoscript/fileName/SignalDeclarationBindInfo.cs:  -> 98318a647caeea897494a18b0baee163
+  custom:scripting/monoscript/fileName/ZenjectManagersInstaller.cs:  -> b63046df5edc82ed4047c5040fe8e807
+  custom:scripting/monoscript/fileName/TestSceneContextEvents.cs:  -> 5017474f1f9d73d5a245148914d5b875
+  custom:scripting/precompiled-assembly-types:Sirenix.OdinInspector.Editor:  -> 781188c74c651d67d9ed9ef1bd66cce2
+  custom:scripting/monoscript/fileName/SceneDecoratorContext.cs:  -> 73ac2b7e555b731c5a9eee6981aa1ef7
+  custom:scripting/monoscript/fileName/TestInstallers.cs:  -> f82d87fff9b46cfa38651b62b32c8aad
+  custom:scripting/monoscript/fileName/MemoryPoolExpandBinder.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ConventionFilterTypesBinder.cs:  -> 93b8705949f2d346d672d704435c68b5
+  custom:scripting/monoscript/fileName/IAnimatorMoveHandler.cs:  -> 245fdb4c37567afb99d99c1d78b3303a
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder6.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestFactoryWithArguments.cs:  -> 366c04ab01cba036c80abb49e1241e66
+  custom:scripting/monoscript/fileName/BindSignalFromBinder.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestAllInjectionTypes.cs:  -> 296ec48b484cd6455d2f1be1884dd737
+  custom:scripting/precompiled-assembly-types:Zenject.ReflectionBaking.Mono.Cecil.Pdb:  -> f24e0e044ea9356545ad718e1512d560
+  custom:scripting/monoscript/fileName/TestFromNewComponentOn.cs:  -> a76a1a229e24e575ed84a21cc54eca5e
+  custom:scripting/monoscript/fileName/IFactory.cs:  -> 9a56eaeecdfd4e25e7dfae4eb479f2ff
+  custom:scripting/monoscript/fileName/TestSignalIdentifiers.cs:  -> 86efd4e7cfea9f6deb5b368c081b5482
+  custom:scripting/monoscript/fileName/ZenReflectionTypeAnalyzer.cs:  -> 9e24326d03ff556ed4cf74b2d586d797
+  custom:scripting/monoscript/fileName/ReflectionBakingInternalUtil.cs:  -> 1a9dc56f1014d33ce7dbc4fd540006d6
+  custom:scripting/monoscript/fileName/TestNonLazy.cs:  -> e9379f6b8246e2f957e750082562cdff
+  custom:scripting/monoscript/fileName/UI.cs:  -> 08c4203463e3b63b6a1e64ada0b60e5e
+  custom:scripting/monoscript/fileName/FooInstaller.cs:  -> 89f9d723cbbc7c8778ff3d0adc715bb1
+  custom:scripting/monoscript/fileName/TestMultipleContractTypes2.cs:  -> 6ddb158a169fc1c92dd403f0625e012f
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder0.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InjectUtil.cs:  -> 9a4f47e64c373fc941e809e7894bc755
+  custom:scripting/monoscript/fileName/AddToExistingGameObjectComponentProvider.cs:  -> d8dda424fc2f83bea137aa2ad771497d
+  custom:scripting/monoscript/fileName/Bob.cs:  -> 74366434d997c1fdc8dcfc1e251786bc
+  custom:scripting/monoscript/fileName/AnimatorIkHandlerManager.cs:  -> 3fffbbb1427aa37ba6dd8bb50d4a8c00
+  custom:scripting/monoscript/fileName/IInstantiator.cs:  -> 776a92ca6e3d451f3022e17cf92222e5
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder0.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestBindFactoryOne.cs:  -> c64b8ba17778635f75f5c3a8731cbe0b
+  custom:scripting/precompiled-assembly-types:Zenject.ReflectionBaking.Mono.Cecil.Rocks:  -> 7293893cf1f59bfa616327b08a4b24ff
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder2.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/FactorySubContainerBinder1.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/WaterMesh.cs:  -> 1bd78adc2aeea76f646e71a84180d447
+  custom:scripting/monoscript/fileName/CachedProvider.cs:  -> e5891ba0aa5cd7d2427483e11c742c82
+  custom:scripting/monoscript/fileName/DelayedInitializeKernel.cs:  -> 713c59a4ae7704873d92e3db05159b24
+  custom:scripting/monoscript/fileName/TestFactory.cs:  -> f4e7e50d75e709516a83c171d3378e0f
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder10.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs:  -> 9889b90f1c1a6194db77d7cab0e19108
+  custom:scripting/monoscript/fileName/EmptyGameObjectProvider.cs:  -> 92214fd88d027a5532e7aaccb1b6a253
+  custom:scripting/monoscript/fileName/TypeStringFormatter.cs:  -> bcd6701b4357305e914abbc2380b528c
+  custom:scripting/precompiled-assembly-types:DOTweenEditor:  -> 1efdf497b099e4e6944f0dd7fb28c744
+  custom:scripting/monoscript/fileName/FactoryFromBinder4.cs:  -> 07ad4c6cd037980e02c4d63d60693499
+  custom:scripting/monoscript/fileName/ActionInstaller.cs:  -> ccbd48bbf9c8a5254f8a5633d43e4f93
+  custom:scripting/monoscript/fileName/UnityAssemblyResolver.cs:  -> 4b41b542146e7fb64f8aa7b4a0a999b2
+  custom:scripting/monoscript/fileName/TestConditionsParents.cs:  -> b34f72ce019cf9fc3f7d2f574ef1dcad
+  custom:scripting/monoscript/fileName/ZenAutoInjecter.cs:  -> 4ba9cd8880419c3e24013d88dcd69697
+  custom:scripting/monoscript/fileName/TestConstructorInjection.cs:  -> 9fb51a7992f0b38b53ed2d4488827d14
+  custom:scripting/monoscript/fileName/NullBindingFinalizer.cs:  -> 50e7d152b2cfa4bc0997af79cf260aa0
+  custom:scripting/monoscript/fileName/UnityInspectorListEditor.cs:  -> 8bb332722319fdbd601ada906cadad3d
+  custom:scripting/monoscript/fileName/EnemyRotationHandler.cs:  -> d184bc60ddf4da36ece4c981b55a12fe
+  custom:scripting/monoscript/fileName/FooDisposable2.cs:  -> ca97dbdc8655a3a8cd0568d0c9b3e7f8
+  custom:scripting/monoscript/fileName/TestResolveMany.cs:  -> ec9a657ca84af056600b0a944f7f3053
+  custom:scripting/monoscript/fileName/MemoryPoolBase.cs:  -> 2fcef994bcc54a7e385a62a1d913f10c
+  custom:scripting/precompiled-assembly-types:Zenject-IntegrationTests-Editor:  -> 17de2f18343b44b6fe407efc0dbbc903
+  custom:scripting/monoscript/fileName/ValidateOnlyAttribute.cs:  -> 2e0d6c1dd1714c76193def1de3d424ed
+  custom:scripting/monoscript/fileName/TestFromGameObject.cs:  -> 7a7e5599d599420ed017a60436dbd814
+  custom:scripting/precompiled-assembly-types:sc.stylizedwater2.editor:  -> 135143761a537f302fbc3a99f665b890
+  custom:scripting/monoscript/fileName/PoolableStaticMemoryPool.cs:  -> fdc76af93c95796253fa211c3d9c79fa
+  custom:scripting/monoscript/fileName/TestPostInjectCall.cs:  -> 01f72a0e5ef640a67dbfacbca8560107
+  custom:scripting/monoscript/fileName/TestIntegrationTest.cs:  -> 26d2890ce807fa6a8add0e988b9c02dc
+  custom:scripting/monoscript/fileName/SceneContextEventsTester.cs:  -> 2391e20cd281a7fa24d5b17ae84b25c6
+  custom:scripting/monoscript/fileName/PlayerDamageHandler.cs:  -> d6f172d53aef1992cbf62aae215249b3
+  custom:scripting/monoscript/fileName/Foo.cs:  -> 4064959312440be3b0074e8e3fdc9fe8
+  custom:scripting/monoscript/fileName/MpmSettingsInstaller.cs:  -> 0edff3070b26c2a01ee3bdab8db487dd
+  custom:scripting/monoscript/fileName/TestConcreteIdentifier.cs:  -> 17d1ba1be5679e82d54129fc0478896f
+  custom:scripting/monoscript/fileName/BarInstaller.cs:  -> 2acf03cb297f94e5eecc8bfc666763f4
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder0.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/FooMonoBehaviourUnderSceneContext3.cs:  -> 063e77a41134f3d4ecdf2b8ec4397403
+  custom:scripting/monoscript/fileName/TestGenericContract.cs:  -> 64c11bc37ffdf4c0dacf561fcadc3f94
+  custom:scripting/monoscript/fileName/TestConditionsFieldName.cs:  -> b79ef7a72aa86c9814a4016eaf108c31
+  custom:scripting/monoscript/fileName/TestStructInjection.cs:  -> 6f2864b175b4881ac997dbf24cfba1a0
+  custom:scripting/monoscript/fileName/FactoryToChoiceBinder6.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PrefabResourceFactory.cs:  -> 0ecf0b5b4a9207402e80b603ad9a119c
+  custom:scripting/monoscript/fileName/WaterShaderImporterEditor.cs:  -> 21cedc0fc6eff00a2b1e6088d0ccef74
+  custom:scripting/monoscript/fileName/Bar.cs:  -> 2630ddc63223de4e88a84930be3f9112
+  custom:scripting/monoscript/fileName/TestFromIFactory2.cs:  -> f10af9ef0a88ad3516a316839a0c7b39
+  custom:scripting/monoscript/fileName/Qux.cs:  -> 80bf75a1cfadc5ae3d82a9cba4c2e24d
+  custom:scripting/monoscript/fileName/ZenjectTestUtil.cs:  -> eddaf00c83ee77e294cc156e8018b243
+  custom:scripting/monoscript/fileName/FactoryFromBinderUntyped.cs:  -> 0e062382b4ce6e31a03d628a505b3cdf
+  custom:scripting/monoscript/fileName/TestFactoryFromSubContainerInstaller1.cs:  -> 780e068f8e66fa03137d077ee2336963
+  custom:scripting/monoscript/fileName/ResolveProvider.cs:  -> 2fe33d501e5cdfa005f548dd46f77f47
+  custom:scripting/monoscript/fileName/GameInstaller.cs:  -> 06a0a1c302e0a5f0af9ae605aa507c81
+  custom:scripting/monoscript/fileName/PoolableMemoryPoolProvider.cs:  -> fdc76af93c95796253fa211c3d9c79fa
+  custom:scripting/monoscript/fileName/SignalBusInstaller.cs:  -> 916d5c8c92ce5fc1f2d46594c57c78e6
+  custom:scripting/monoscript/fileName/PlanarReflectionRendererInspector.cs:  -> a0a30db481cdc406ece1285672996d77
+  custom:scripting/monoscript/fileName/SubContainerCreatorBindInfo.cs:  -> c9ce945204b9758835f4d9221775cab1
+  custom:scripting/monoscript/fileName/TestBindCallbacks.cs:  -> 075d856fc4d315f079d3141e38ab91b4
+  custom:scripting/monoscript/fileName/PlayerMoveHandler.cs:  -> f0184b193ec9bccb24bf7250288398d3
+  custom:scripting/monoscript/fileName/KeyedFactory.cs:  -> 94f8e54b68df661c8d45e8cea71cf2f5
+  custom:scripting/precompiled-assembly-types:Sirenix.OdinInspector.Modules.UnityMathematics:  -> 0daeba2df2804242256ba419ce6e64ba
+  custom:scripting/monoscript/fileName/TestBindingInheritanceMethod.cs:  -> 4fe92929852e38e071f83404fc819e15
+  custom:scripting/monoscript/fileName/TestFromSubContainerPrefab.cs:  -> 2a5278d6eef0363d29736d222b9c9ee5
+  custom:scripting/monoscript/fileName/IValidatable.cs:  -> b61ef286d8d34b0b1a0cc980475099f4
+  custom:scripting/monoscript/fileName/FooDisposable3.cs:  -> df7a2f40eee56b9fa8fdb998a8a8cba3
+  custom:scripting/monoscript/fileName/WaterMeshImporter.cs:  -> 60e26c03e64e3f10fdcaaf3db453ea86
+  custom:scripting/monoscript/fileName/MemoryPool.cs:  -> 4a32470493a767702519176ca1433fe7
+  custom:scripting/monoscript/fileName/TilingBackground.cs:  -> a0ad69c7f5ce9af528c2bc64c968dc96
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder2.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ReflectionInfoTypeInfoConverter.cs:  -> 1eb9208ed6bd4c950496839d8ffd875b
+  custom:scripting/monoscript/fileName/TestFromPoolableMemoryPoolSix.cs:  -> d9152ffa5eb793dd5a80ec0b390dd73a
+  custom:scripting/monoscript/fileName/CircBar.cs:  -> 897ab42d5b1303bc7850eade74d766b0
+  custom:scripting/monoscript/fileName/ScriptableObjectInstaller.cs:  -> ea546d138e7f07c98d19d2e9620174d7
+  custom:scripting/monoscript/fileName/FromBinderGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GameObjectCreationParameters.cs:  -> 6bde73a43e2cb0849f56841f6b013e4b
+  custom:scripting/monoscript/fileName/Gorp2.cs:  -> b55c87b54d1b89ba2f1506c5b418941f
+  custom:scripting/monoscript/fileName/TestFromGameObjectInstaller.cs:  -> 402c099d8dfa2bd1377a090284b66cf7
+  custom:scripting/precompiled-assembly-types:Sirenix.Utilities.Editor:  -> ebae6c63855466ce38e7eb319e246f71
+  custom:scripting/monoscript/fileName/SignalCopyBinder.cs:  -> 84dca14bf349eabadb634f9a5c54afe4
+  custom:scripting/monoscript/fileName/MethodProviderWithContainer.cs:  -> fdc76af93c95796253fa211c3d9c79fa
+  custom:scripting/monoscript/fileName/Foo2.cs:  -> 86390993d11fe3acc369463cde136db0
+  custom:scripting/monoscript/fileName/FactoryToChoiceIdBinder4.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ShipState.cs:  -> 7635a9225d1ab6f7ff638b58af2fe53d
+  custom:scripting/monoscript/fileName/TestAsSingle.cs:  -> 32791b1e9f06156cd5f5e07af3a3d309
+  custom:scripting/precompiled-assembly-types:Zenject-usage:  -> 5dc6051ca3c03fd2759d5f46f13dd5fa
+  custom:scripting/monoscript/fileName/TestFromGetter.cs:  -> 715ab8e967460e28779cc7d93d09ab6d
+  custom:scripting/monoscript/fileName/TestIdentifierTypes.cs:  -> e3272a5519015c31a7d764101e870047
+  custom:scripting/monoscript/fileName/SubContainerCreatorCached.cs:  -> 3565184c9f0d10d96944b85b916d17b5
+  custom:scripting/monoscript/fileName/GuiHandler.cs:  -> 68b1a3bf1b310598f59560613aeca99d
+  custom:scripting/monoscript/fileName/SignalDeclaration.cs:  -> 71e835d8b1a1b77bbd4c80626a0dacc9
+  custom:scripting/monoscript/fileName/CopyNonLazyBinder.cs:  -> b389d20cd6b3984dfef74a4848cb54a9
+  custom:scripting/monoscript/fileName/LookupId.cs:  -> 1d036e5addd80b0be1d4259c2119b76f
+  custom:scripting/monoscript/fileName/FooMonoBehaviourUnderSceneContext2.cs:  -> a68b52c5ba9986630d89b2505eee03c6
+  custom:scripting/monoscript/fileName/ScriptableObjectResourceProvider.cs:  -> 2c1cafa39f6bdf7915be7743c60076eb
+  custom:scripting/monoscript/fileName/TestListInjection.cs:  -> b62e7424cb58a1fcb975a1d261db5e23
+  custom:scripting/monoscript/fileName/SignalSubscription.cs:  -> 46f6f702a97baa0022ce2580877860a1
+  custom:scripting/monoscript/fileName/SceneTestFixtureSceneReference.cs:  -> 60519d0b02bfbdb67122ba7e59db96bb
+  custom:scripting/monoscript/fileName/InstallerBase.cs:  -> 354016a0b54cb7f3b5c86bd34119d6ed
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder10.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestFactoryFromSubContainerMethod1.cs:  -> a4b8db6a6cce409698b5cdef35063584
+  custom:scripting/precompiled-assembly-types:sc.stylizedwater2.runtime:  -> 6a08dc2b4cf33d0b61539b9d79de071f
+  custom:scripting/monoscript/fileName/TestLazy.cs:  -> ed9660cfd27aef193eaa2f79a4a7dc94
+  custom:scripting/monoscript/fileName/TestFactoryFromInstance0.cs:  -> 5b30a008e9e2f551644f6e1739518b77
+  custom:scripting/monoscript/fileName/ZenUnityEditorUtil.cs:  -> 8ae06dd65be6ba72deacf7ea637e4bf4
+  custom:scripting/monoscript/fileName/BindingUtil.cs:  -> d55e77999d5f26d73d3117f2e42819a1
+  custom:scripting/monoscript/fileName/Asteroid.cs:  -> 680e5ad22f487b4cbeeeb300f2a9bfda
+  custom:scripting/monoscript/fileName/Bullet.cs:  -> 2a2895bd066dac2fdf0be6f14cf4a75d
+  custom:scripting/monoscript/fileName/MemoryPoolBindingFinalizer.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IBindingFinalizer.cs:  -> 1c301729fca6df45c4139f31833d77d5
+  custom:scripting/monoscript/fileName/IMemoryPool.cs:  -> a21bf57a36a603ae79d20df0b9e43b2f
+  custom:scripting/monoscript/fileName/DisposableManager.cs:  -> 64d939efafa91862c8cc3cdc0075eb27
+  custom:scripting/precompiled-assembly-types:Zenject-ReflectionBaking-Editor:  -> 045726f510e54cf87b2fe3ea73788f9f
+  custom:scripting/monoscript/fileName/TestMultipleContractTypes3.cs:  -> 6d7d79444ad6394047a25573465a0b66
+  custom:scripting/monoscript/fileName/ZenjectException.cs:  -> 85b2168219ffeb6af987dfdfe00f5edb
+  custom:scripting/monoscript/fileName/Scene2Installer.cs:  -> 0d08fb9ab2cb8e26a42170a23f4ab633
+  custom:scripting/monoscript/fileName/EnemyStateAttack.cs:  -> 5573135163ea1ffb3034f2982efb961f
+  custom:scripting/monoscript/fileName/TestFactoryFrom5.cs:  -> 1beb03fba4915a43b38427ed82eb26ee
+  custom:scripting/monoscript/fileName/Buoyancy.cs:  -> da8dc403b797ee21757c91e76905e467
+  custom:scripting/monoscript/fileName/IfNotBoundBinder.cs:  -> fcb37c7b37365857f95a0ada15714255
+  custom:scripting/monoscript/fileName/TestInstantiateApproaches.cs:  -> 8d57050aa83a98fcdffc472a4c4867c8
+  custom:scripting/monoscript/fileName/ContextEditor.cs:  -> 90f57c64c69d3476f59c6f84e3156be6
+  custom:scripting/monoscript/fileName/TestWithArguments.cs:  -> a77500fce27289912c834161088b48ba
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder5.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EnemyDeathHandler.cs:  -> 8272b098ac555c02cdda96ace7ed8619
+  custom:scripting/monoscript/fileName/AlignToWaves.cs:  -> c0763b309715a8cfcc40e085482be903
+  custom:scripting/monoscript/fileName/MonoMemoryPool.cs:  -> 94f8e54b68df661c8d45e8cea71cf2f5
+  custom:scripting/monoscript/fileName/TestTestUtil.cs:  -> 7ce841ab35ae6d0e50003d20d95ed48b
+  custom:scripting/monoscript/fileName/ArgConditionCopyNonLazyBinder.cs:  -> c775fdbbb566a93962b4428d0259deb9
+  custom:scripting/monoscript/fileName/MethodProviderSimple.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AssetInfo.cs:  -> 79cf50fba71c37cf12d970b42b262515
+  custom:scripting/monoscript/fileName/TestWithKernel.cs:  -> 0a007699ba1595ee07d3183bf04ea8c2
+  custom:scripting/monoscript/fileName/TestFactoryFromSubContainerMethod0.cs:  -> 16e7203db620f719aee04e1439a05a2c
+  custom:scripting/monoscript/fileName/ResourceProvider.cs:  -> 8674835749bfc9b6a81079d3cc350012
+  custom:scripting/monoscript/fileName/MonoInstaller.cs:  -> 188ace2bc16b5d945cb199ff7455fc84
+  custom:scripting/monoscript/fileName/DeclareSignalAsyncTickPriorityCopyBinder.cs:  -> 78a302f2adab8bdcaa65289123c851ab
+  custom:scripting/monoscript/fileName/TypeAnalyzer.cs:  -> 0fca7808fd5291c1722896ff9ed5ce2a
+  custom:scripting/monoscript/fileName/TestTestOptional.cs:  -> d649229f6fbb11f6aa95e4674caca911
+  custom:scripting/monoscript/fileName/ConcreteBinderNonGeneric.cs:  -> e8ac8d5f812c8b0be139abf080649ccd
+  custom:scripting/monoscript/fileName/AddToNewGameObjectComponentProvider.cs:  -> 31cff22abcf6c6a621d0aa2d640010cf
+  custom:scripting/monoscript/fileName/GuiRenderer.cs:  -> 36ce383c2428f4ca5d1ba1e585f91351
+  custom:scripting/monoscript/fileName/TestValidation.cs:  -> 5203e807fd634215b3b250616ea39080
+  custom:scripting/monoscript/fileName/Scene3Installer.cs:  -> 6b477bcd0ae8fac19ab56ff08f02da10
+  custom:scripting/monoscript/fileName/ZenjectSettings.cs:  -> 50288318ac7b036d2989e46cefd07840
+  custom:scripting/monoscript/fileName/SubContainerDependencyProvider.cs:  -> c7b9e2415e2192369685c3b30ee7d68b
+  custom:scripting/monoscript/fileName/TestTransientMockProvider.cs:  -> 442296bd45b18609c11791a9fb89e60b
+  custom:scripting/monoscript/fileName/SignalBus.cs:  -> 41c0f1caba131e78e7615670792e1415
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder3.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestNonGeneric.cs:  -> b86a0d8eb357282844fba8e169afed55
+  custom:scripting/monoscript/fileName/Log.cs:  -> 3c1e09bf2dd3ccea17e9aef02d49d0ab
+  custom:scripting/monoscript/fileName/SingletonMarkRegistry.cs:  -> 865fb7a66a871311de17a3202fdfb17e
+  custom:scripting/monoscript/fileName/SubContainerCreatorByNewPrefabWithParams.cs:  -> 4d2914750ea3f9d0927cc94beda00538
+  custom:scripting/monoscript/fileName/ZenPools.cs:  -> 55f69483eae2e8c57207c5dddda2c556
+  custom:scripting/monoscript/fileName/IPrefabProvider.cs:  -> b8ca362be62236f448a055f664de60e0
+  custom:scripting/monoscript/fileName/ProviderUtil.cs:  -> 6b08be7fdef8d21cded8aff5ec0837ac
+  custom:scripting/monoscript/fileName/GuiRenderableManager.cs:  -> ec14b937e824bd01d5ca0b195114a4ab
+  custom:scripting/monoscript/fileName/SignalExtensions.cs:  -> 409431ea2ef7a8ce5ff35d58e7f6fe8e
+  custom:scripting/monoscript/fileName/TestFromNewScriptableObjectResource.cs:  -> 40cea707e2b848bcc7c95f80a32435c3
+  custom:scripting/monoscript/fileName/MethodProvider.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/InPlaceStableSort.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SceneTestFixture.cs:  -> 5864c79e5e9b83ad4d8ba9617191c1b4
+  custom:scripting/monoscript/fileName/AudioPlayer.cs:  -> d9da2f2397fe964bf1e9d5f92e463650
+  custom:scripting/monoscript/fileName/SubContainerCreatorUtil.cs:  -> bb1d6c866f8e6e57e94ae214fe6e18a8
+  custom:scripting/monoscript/fileName/BindStatement.cs:  -> 835d76204c9337441ccc41538a15f9d4
+  custom:scripting/monoscript/fileName/PlaceholderFactoryBindingFinalizer.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/EnemyStateIdle.cs:  -> ba7d842ab936f5ac8be731055322f748
+  custom:scripting/monoscript/fileName/SignalCallbackWrapper.cs:  -> 593f6d4818ac23dcd143e972aab023a1
+  custom:scripting/monoscript/fileName/PlaceholderFactoryBase.cs:  -> b738daf79103a59519ebbfcdbc1132e7
+  custom:scripting/monoscript/fileName/DecoratorProvider.cs:  -> 5a3729039ae707092dac8e85f816c4d0
+  custom:scripting/monoscript/fileName/ZenjectUnitTestFixture.cs:  -> 6ff2a425a1eca42c5658c0eb78dbdabc
+  custom:scripting/precompiled-assembly-types:Zenject.ReflectionBaking.Mono.Cecil.Mdb:  -> 745238629ef65fc9bd9e418bc64b2049
+  custom:scripting/monoscript/fileName/Norf.cs:  -> c79ac13404a6a7afbd0de85f0c487afe
+  custom:scripting/monoscript/fileName/EnemySpawner.cs:  -> 419df8aa57ce5b824b55d498815d9da5
+  custom:scripting/monoscript/fileName/TestFromMethodMultiple.cs:  -> 6f5170a6423c50e8e3bfac7acb0ec625
+  custom:scripting/monoscript/fileName/GameRestartHandler.cs:  -> fe3b6363a1f989b33aae316ad3f1190a
+  custom:scripting/monoscript/fileName/ConventionSelectTypesBinder.cs:  -> fe88da09333827cbd7864010e84f607c
+  custom:scripting/monoscript/fileName/TestFromPrefabResource.cs:  -> 74d344bd98e0d86086bfa5ecb066e8d4
+  custom:scripting/monoscript/fileName/TestValidationSettings.cs:  -> 364cf432636ec170903d691e3815d8ea
+  custom:scripting/monoscript/fileName/GameSettingsInstaller.cs:  -> 9b9a11004bfb64236322f38318a2dfa8
+  custom:scripting/monoscript/fileName/TestFromFactory.cs:  -> 381583fea5bec2204ea1ddfdfa6dbb13
+  custom:scripting/monoscript/fileName/TestAsyncSignals.cs:  -> 599d1500cb4c1314b58e4171320479ee
+  custom:scripting/monoscript/fileName/FactoryFromBinder1.cs:  -> 57b2a77844f3c3528e17c53123ac60bc
+  custom:scripting/monoscript/fileName/TestNestedContainer.cs:  -> 0e37d8ceef21dbe0ba1ede6e4d968932
+  custom:scripting/monoscript/fileName/ZenMenuItems.cs:  -> e713dec1b0a95409f442cc571c018c88
+  custom:scripting/monoscript/fileName/ValidationMarker.cs:  -> 3d875de7d2b80b972999c1a0cfa39428
+  custom:scripting/monoscript/fileName/TestSignals1.cs:  -> 2911a732bdc16b0673f2392453bf87ca
+  custom:scripting/monoscript/fileName/MethodProviderUntyped.cs:  -> e806a75eca4242f2c34887daca503730
+  custom:scripting/monoscript/fileName/SceneDecoratorContextEditor.cs:  -> 3409655df2ba420e7d9dd5597846c484
+  custom:scripting/monoscript/fileName/WaterGridInspector.cs:  -> 9abac76b4b5df8591db67f1ffb3ad2ba
+  custom:scripting/monoscript/fileName/TestIFactory.cs:  -> 796e794d6382df5f43c678c001e69368
+  custom:scripting/monoscript/fileName/ReflectionBakingBuildObserver.cs:  -> 6902e43404c7df90757ffd24698b2081
+  custom:scripting/monoscript/fileName/LazyInject.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs:  -> c34b590611abbbe28c8cc631d75af2e1
+  custom:scripting/monoscript/fileName/TestConstructorInjectionOptional.cs:  -> be157ff22ece39b004c5d3c5a85e03c0
+  custom:scripting/monoscript/fileName/TestMonoKernelDecoration.cs:  -> 6f536bac40e1d37d1ca070d32b9231dd
+  custom:scripting/monoscript/fileName/ConcreteIdBinderGeneric.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ConcreteIdArgConditionCopyNonLazyBinder.cs:  -> 87934127e92b7b790cc75b7020664a66
+  custom:scripting/monoscript/fileName/MonoPoolableMemoryPool.cs:  -> 4a32470493a767702519176ca1433fe7
+  custom:scripting/precompiled-assembly-types:Zenject-Editor:  -> 626e9ed6f746038de73d5f715a67b32e
+  custom:scripting/monoscript/fileName/TestConditionsTargetInstance.cs:  -> c3b93c131bbc13383d2aed049db97e54
+  custom:scripting/monoscript/fileName/TestFromPrefabInstaller.cs:  -> 98966b575c251a99e67b0f52e32cb55e
+  custom:scripting/monoscript/fileName/HelpWindow.cs:  -> 951be1086cc155b487c11abe385a977e
+  custom:scripting/monoscript/fileName/FactoryArgumentsToChoiceBinder4.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TestFromMethod.cs:  -> 40afb3818c5aacb747394374aba78cb1
+  custom:scripting/monoscript/fileName/ZenjectIntegrationTestFixture.cs:  -> 6d29632d1a6ee8444577ea0302c50175
+  custom:scripting/monoscript/fileName/DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs:  -> 70d13547789297b14d02ffc4daf39d67
+  custom:scripting/monoscript/fileName/Norf2.cs:  -> df9b2ff2da775dbcb62a9ad0fe234ece
+  custom:scripting/monoscript/fileName/SceneContextRegistryAdderAndRemover.cs:  -> 22a8a6f533298ff92794befeb228a1d0
+  custom:scripting/monoscript/fileName/TestFromSubContainerPrefabResource.cs:  -> c39d8f4469a6fab01b79ba1d289b31fa
+  custom:scripting/monoscript/fileName/TestFactoryFromMethod0.cs:  -> f34260fef2d2adaf2a103762896abb09
+  custom:scripting/monoscript/fileName/TestConditionsComplex.cs:  -> 3369aa422c0ee54962929ff72c5be02b
+  custom:scripting/monoscript/fileName/ProjectContextEditor.cs:  -> e24d16ced6ec6f2a7cfac6a8ada940dd
+  custom:scripting/monoscript/fileName/BindInfo.cs:  -> c43fabd41893245e3f3b3ddfe259b9d9
+  custom:scripting/precompiled-assembly-types:Sirenix.Reflection.Editor:  -> f1d6e4992778295923e6cbd73e232379
+  custom:scripting/monoscript/fileName/TestFromSiblingComponent.cs:  -> dd5056c46370ab00bf79a663101f2044
+  custom:scripting/monoscript/fileName/TestFactoryFromSubContainerInstaller0.cs:  -> fa3fa9899b47c46e2b09722bda5dd13d
+  custom:scripting/monoscript/fileName/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs:  -> 6cb724bcc468bc0c904da00bab2f846b
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

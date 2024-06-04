@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7117c5eed44b384e136a28a177a33, type: 3}
+  m_Name: Lightning Marble
+  m_EditorClassIdentifier: 
+  _inQueueSpeed: 1
+  _projectileModel: {fileID: 11400000, guid: 95078b0d1808a184081c27747307efbc, type: 2}
+  sprite: {fileID: 21300000, guid: 8817e16c1879e0b41aaf585137ab064e, type: 3}
