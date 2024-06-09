@@ -1248,6 +1248,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1500691824}
     m_Modifications:
+    - target: {fileID: 1474217973675691521, guid: 6a7f662ec83546c4586f53685c6ec050,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474217973675691521, guid: 6a7f662ec83546c4586f53685c6ec050,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 215.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1726327264019972132, guid: 6a7f662ec83546c4586f53685c6ec050,
         type: 3}
       propertyPath: m_Name
@@ -1358,6 +1368,26 @@ PrefabInstance:
       propertyPath: marbleQueue
       value: 
       objectReference: {fileID: 1887962723}
+    - target: {fileID: 8296076229258982767, guid: 6a7f662ec83546c4586f53685c6ec050,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296076229258982767, guid: 6a7f662ec83546c4586f53685c6ec050,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187786273844813885, guid: 6a7f662ec83546c4586f53685c6ec050,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187786273844813885, guid: 6a7f662ec83546c4586f53685c6ec050,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5175,7 +5205,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 127
+    m_Bits: 55
 --- !u!114 &1500691822
 MonoBehaviour:
   m_ObjectHideFlags: 0
