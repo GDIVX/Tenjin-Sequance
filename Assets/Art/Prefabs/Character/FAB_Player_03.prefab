@@ -189,7 +189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6798912110303037578}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7919273, z: 0, w: 0.61061543}
+  m_LocalRotation: {x: 0, y: -0.7919275, z: 0, w: 0.6106152}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -199,7 +199,7 @@ Transform:
   - {fileID: 4439670640753429523}
   - {fileID: 5621146750960707528}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -149.313, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -104.732, z: 0}
 --- !u!114 &3877892587926244631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   _shooter: {fileID: 4669290695049250055}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   newSpeed: 4
   speedChangeDurationInSeconds: 1.2
   canMove: 1
@@ -275,7 +275,7 @@ MonoBehaviour:
         m_CallState: 2
   dashDuration: 0.15
   dashCooldown: 1
-  _speed: Infinity
+  _speed: 8
   gravityFactor: 100
 --- !u!114 &7704920714557367582
 MonoBehaviour:
@@ -454,6 +454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285814947710257780, guid: def08ed2a9fab594d9b260f88ce76890,
+        type: 3}
+      propertyPath: minDistanceTolerant
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2285814947710257780, guid: def08ed2a9fab594d9b260f88ce76890,
         type: 3}
@@ -699,7 +704,7 @@ PrefabInstance:
     - target: {fileID: 3387950620741063360, guid: 731dd4b9f05ed5e409758baac60d1025,
         type: 3}
       propertyPath: m_CastShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7287434081331340128, guid: 731dd4b9f05ed5e409758baac60d1025,
         type: 3}
