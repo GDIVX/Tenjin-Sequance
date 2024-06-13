@@ -1,0 +1,25 @@
+ 
+name: Build Unity Project
+
+on:
+  push:
+    branches:
+      - staging
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Unity
+        uses: game-ci/unity-setup@v2
+        with:
+          unityVersion: 2022.3.22f1  # Change to your Unity version
+
+      - name: Build project
+        run: |
+          mkdir build
+          unity -projectPath . -buildTarget StandaloneLinux64 -quit -batchmode -nographics -buildPath build/linux
