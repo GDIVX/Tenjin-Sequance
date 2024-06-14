@@ -1,4 +1,4 @@
-name: Unity Build
+name: Unity CI
 
 on:
   push:
@@ -7,24 +7,25 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
     - name: Setup Unity
-      uses: game-ci/unity-builder@v2
+      uses: game-ci/unity-setup@v2
       with:
         unityVersion: 2022.3.22f1
+        activationMethod: 'file'
+        activationFile: ${{ secrets.UNITY_LICENSE }}
 
-    - name: Build project
-      uses: game-ci/unity-builder@v2
-      with:
-        targetPlatform: StandaloneWindows64
-        unityVersion: 2021.1.10f1
+    - name: Build Unity project
+      run: |
+        mkdir -p build
+        "C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe" -projectPath . -buildTarget StandaloneWindows64 -buildPath build/StandaloneWindows64 -quit -batchmode -nographics -silent-crashes -logFile -
 
-    - name: Upload artifact
+    - name: Archive build
       uses: actions/upload-artifact@v2
       with:
         name: Build
