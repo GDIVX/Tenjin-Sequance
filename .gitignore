@@ -75,3 +75,14 @@ crashlytics-build.properties
 "UserSettings/" 
 "*.dwlt" 
 "UserSettings/" 
+
+# Ignore specific generated or corrupted files
+Assets/Plugins/Sirenix/**/*.cs
+Assets/Plugins/Sirenix/**/*.cs.meta
+Assets/Shaders/**/*.shadergraph
+Assets/Shaders/**/*.shadergraph.meta
+Assets/UniversalRenderPipelineGlobalSettings.asset
+Assets/UniversalRenderPipeline.asset
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/ShaderGraphSettings.asset
+
